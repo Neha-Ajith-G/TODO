@@ -1,0 +1,73 @@
+.nav{
+    margin: 0;
+    padding: 0;
+    top:0;
+    background-color: lavender;
+
+}
+.navlist {
+    list-style-type: none;
+    margin:10 px;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+.active{
+    background-color: lightgreen;
+}
+li a {
+    display: block;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.959);
+    background-color: lavender;
+}
+li a:hover{
+    background-color: lightpink;
+}
+
+#addTask {
+    border-radius: 5px;
+    border: none;
+    background-color: coral;
+    color: black;
+    padding: 5px 15px;
+    font-size: small;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+    cursor: pointer;
+    opacity: .8;
+}
+#todolist{
+    display: inline-block;
+}
+#taskItem{
+    padding:4px 15px 4px 5px;
+    border-radius: 5px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.84);
+    color: lavenderblush;
+}
+
+
+.container{
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;
+}
+ol {padding-left: 20px;}
+
+ol li {padding: 5px;color:#000;}
+
+ol li:nth-child(even){background: #dfdfdf;}
+
+.strike{text-decoration: line-through;}
+li:hover{
+    cursor: pointer;
+}
+ 

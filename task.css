@@ -1,0 +1,42 @@
+h1{
+    
+    text-transform: capitalize;
+    color:rgb(8, 13, 59);
+    }
+    #todo{
+    background-color:rgba(152, 236, 239, 0.766);
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    border: groove;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    }
+    li{
+    position: relative;
+    }
+    li.un{
+    background-color: rgb(0, 160, 188);
+    margin-right:5%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    border-radius:20px;
+    }
+    li.done{
+    background-color: rgb(42, 92, 107);
+    margin-right:5%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    border-radius:20px;
+    text-decoration: line-through;
+    }
+    li:hover,.close:hover{
+    font-size: 30px;
+    }
+    .close{
+    border: none;
+    background: none;
+    float:right;
+    text-decoration: none;
+    }

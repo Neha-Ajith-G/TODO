@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="task.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <ul class="navlist">
+            <li><a class="" href="index.html" style="float: left">HOME</a></li>
+            <li><a class="active" href = "tasks.html" style="float:left">TASKS</a></li>
+            <li><a class="" href="signin.html" style="float: right">SIGNIN</a></li>
+        </ul>
+    </div>
+    <div id="todo" align="center">
+        <h1 >To Do List</h1>
+        <section id="things">
+          <ul class="task" type="none">
+            <li class="un" >Complete assignment <input type="submit" value="X" class="close"></li>
+            <li class="done" >Drink 2L of water <input type="submit" value="X" class="close"></li>
+          </ul>
+        </section>
+          <input type="text" placeholder="TASK" id="in" class="t">
+      <input type="SUBMIT" value="ADD" id="b" class="t">
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
